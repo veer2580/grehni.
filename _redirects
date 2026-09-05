@@ -1,7 +1,8 @@
 # ==============================================================================
-# Cloudflare Pages Redirects & SPA Fallback Routing
+# Cloudflare Workers Static Assets - Redirects
+# NOTE: SPA fallback is handled by wrangler.toml (not_found_handling = "single-page-application")
+# Only use this file for explicit path redirects, not SPA catch-all.
 # ==============================================================================
 
-# Single Page Application (SPA) fallback:
-# If a user refreshes on any subpath or deep link, route to /index.html with status 200
-/*    /index.html   200
+# Redirect www to non-www (canonical domain)
+https://www.grehni.com/*  https://grehni.com/:splat  301
