@@ -5,7 +5,6 @@
 name = "grehni"
 compatibility_date = "2024-09-05"
 
-# Static Assets Configuration for Cloudflare Workers & Pages
 [assets]
 directory = "."
 not_found_handling = "single-page-application"

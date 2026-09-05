@@ -4,20 +4,13 @@
   "description": "GREHNI — AI Operating System for Smart Spaces",
   "private": true,
   "scripts": {
-    "build": "echo 'Static assets ready for Cloudflare deployment.'",
-    "deploy:pages": "wrangler pages deploy . --project-name=grehni",
-    "deploy:worker": "wrangler deploy",
-    "preview": "wrangler pages dev ."
-  },
-  "devDependencies": {
-    "wrangler": "^4.129.0"
+    "build": "echo 'Static assets ready for deployment.'",
+    "deploy": "npx wrangler deploy"
   },
   "keywords": [
     "grehni",
-    "cloudflare-pages",
     "cloudflare-workers",
-    "smart-spaces",
-    "ambient-intelligence"
+    "cloudflare-pages"
   ],
   "author": "Antellay Labs | Celebso Group",
   "license": "UNLICENSED"
