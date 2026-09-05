@@ -1,8 +1,6 @@
 # ==============================================================================
 # Cloudflare Workers Static Assets - Redirects
-# NOTE: SPA fallback is handled by wrangler.toml (not_found_handling = "single-page-application")
-# Only use this file for explicit path redirects, not SPA catch-all.
+# NOTE: Only relative URLs are supported in Workers _redirects.
+# SPA fallback is handled by wrangler.toml (not_found_handling = "single-page-application")
+# www -> non-www redirect must be set in Cloudflare Dashboard > Rules > Redirect Rules
 # ==============================================================================
-
-# Redirect www to non-www (canonical domain)
-https://www.grehni.com/*  https://grehni.com/:splat  301
