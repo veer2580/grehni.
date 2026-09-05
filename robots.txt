@@ -1,0 +1,10 @@
+# ==============================================================================
+# Robots.txt for GREHNI (https://grehni.com)
+# Generated for Google Search Console, Bing Webmaster Tools & Search Engine Crawlers
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Direct Googlebot and other crawlers to the official XML sitemap
+Sitemap: https://grehni.com/sitemap.xml

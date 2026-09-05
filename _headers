@@ -1,0 +1,35 @@
+# ==============================================================================
+# Cloudflare Pages Custom HTTP Headers Configuration
+# ==============================================================================
+
+# Global Security Headers & Policies
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# HTML Document: Fast revalidation so updates publish immediately
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Static Assets (Images, Stylesheets, Scripts): Long-term immutable caching
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Search Engine Files
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=86400
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+  Cache-Control: public, max-age=86400

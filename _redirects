@@ -1,0 +1,7 @@
+# ==============================================================================
+# Cloudflare Pages Redirects & SPA Fallback Routing
+# ==============================================================================
+
+# Single Page Application (SPA) fallback:
+# If a user refreshes on any subpath or deep link, route to /index.html with status 200
+/*    /index.html   200

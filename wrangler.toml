@@ -1,0 +1,17 @@
+# ==============================================================================
+# Cloudflare Workers & Pages Configuration (wrangler.toml)
+# ==============================================================================
+
+name = "grehni"
+compatibility_date = "2024-09-05"
+
+# Cloudflare Pages build directory
+pages_build_output_dir = "."
+
+# Cloudflare Workers Static Assets binding (enables direct worker deployment)
+assets = { directory = ".", binding = "ASSETS", not_found_handling = "single-page-application" }
+
+[vars]
+ENVIRONMENT = "production"
+SITE_NAME = "GREHNI"
+SITE_URL = "https://grehni.com"

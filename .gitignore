@@ -1,0 +1,20 @@
+# Node & Wrangler dependencies
+node_modules/
+.wrangler/
+dist/
+.env
+.env.local
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Scratch and test files
+crop_images.py
+test_*.png
+test_*.jpg
+check_*.py
+validate_*.py

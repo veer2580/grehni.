@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <g transform="translate(4, 4)">
+    <circle cx="20" cy="20" r="18" stroke="#ffffff" stroke-width="2.5" fill="none"/>
+    <path d="M20 10 C25.5 10 30 14.5 30 20 C30 25.5 25.5 30 20 30 C14.5 30 10 25.5 10 20 C10 14.5 14.5 10 20 10" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M20 20 L29 20" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="20" cy="20" r="3.5" fill="#00E575"/>
+  </g>
+  <text x="54" y="23" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="700" letter-spacing="2.5">CELEBSO</text>
+  <text x="54" y="37" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="500" letter-spacing="3.5">GROUP</text>
+</svg>

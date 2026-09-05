@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- 1. Homepage -->
+  <url>
+    <loc>https://grehni.com/</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/tech_isometric_stack.png</image:loc>
+      <image:title>Grehni 3D Isometric Technology Stack</image:title>
+      <image:caption>Grehni AI Operating System &amp; Ambient Intelligence Architecture</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 2. Technology -->
+  <url>
+    <loc>https://grehni.com/#technology</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/tech_isometric_stack.png</image:loc>
+      <image:title>Grehni Technology Stack</image:title>
+    </image:image>
+  </url>
+
+  <!-- 3. Solutions Overview -->
+  <url>
+    <loc>https://grehni.com/#solutions</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 4. Smart Homes Solution -->
+  <url>
+    <loc>https://grehni.com/#smart-homes</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/industries/smart_homes.png</image:loc>
+      <image:title>Grehni Smart Homes Luxury Architecture</image:title>
+    </image:image>
+  </url>
+
+  <!-- 5. Commercial Spaces Solution -->
+  <url>
+    <loc>https://grehni.com/#commercial-spaces</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/industries/commercial_spaces.png</image:loc>
+      <image:title>Grehni Commercial Spaces Executive Architecture</image:title>
+    </image:image>
+  </url>
+
+  <!-- 6. Industrial Facilities Solution -->
+  <url>
+    <loc>https://grehni.com/#industrial-facilities</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/industries/industrial_facilities.png</image:loc>
+      <image:title>Grehni Industrial Facilities Molecular Neutralization Plant</image:title>
+    </image:image>
+  </url>
+
+  <!-- 7. Smart Cities Solution -->
+  <url>
+    <loc>https://grehni.com/#smart-cities</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/industries/smart_cities.png</image:loc>
+      <image:title>Grehni Smart Cities Urban Architecture</image:title>
+    </image:image>
+  </url>
+
+  <!-- 8. Hospitality Solution -->
+  <url>
+    <loc>https://grehni.com/#hospitality</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/industries/hospitality.png</image:loc>
+      <image:title>Grehni Luxury Hospitality Resort Architecture</image:title>
+    </image:image>
+  </url>
+
+  <!-- 9. Public Infrastructure Solution -->
+  <url>
+    <loc>https://grehni.com/#public-infrastructure</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/industries/public_infrastructure.png</image:loc>
+      <image:title>Grehni Public Infrastructure Bridge Architecture</image:title>
+    </image:image>
+  </url>
+
+  <!-- 10. Aroma OS Platform -->
+  <url>
+    <loc>https://grehni.com/#aroma-os</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 11. Edge Intelligence Platform -->
+  <url>
+    <loc>https://grehni.com/#edge-intelligence</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 12. Cloud Infrastructure Platform -->
+  <url>
+    <loc>https://grehni.com/#cloud-infrastructure</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 13. Developer Resources & Documentation -->
+  <url>
+    <loc>https://grehni.com/#resources</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 14. Company & About Us -->
+  <url>
+    <loc>https://grehni.com/#company</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://grehni.com/assets/images/founder_veer_singh.png</image:loc>
+      <image:title>Veer Singh — Founder, Grehni</image:title>
+    </image:image>
+  </url>
+
+  <!-- 15. Contact & Inquiries -->
+  <url>
+    <loc>https://grehni.com/#contact</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
