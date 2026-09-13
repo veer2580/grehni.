@@ -4,11 +4,13 @@
   "description": "GREHNI — AI Operating System for Smart Spaces",
   "private": true,
   "scripts": {
-    "build": "echo 'Static assets ready for deployment.'",
-    "deploy": "npx wrangler deploy"
+    "deploy": "npx vercel --prod",
+    "deploy:vercel": "npx vercel --prod",
+    "deploy:cf": "npx wrangler deploy"
   },
   "keywords": [
     "grehni",
+    "vercel",
     "cloudflare-workers",
     "cloudflare-pages"
   ],

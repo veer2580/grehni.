@@ -1,6 +1,7 @@
-# Node & Wrangler dependencies
+# Node & Cloudflare / Vercel dependencies
 node_modules/
 .wrangler/
+.vercel/
 dist/
 .env
 .env.local
