@@ -86,11 +86,14 @@ document.addEventListener('DOMContentLoaded', () => {
       'home', 'company', 'about', 'technology',
       'aroma-os', 'edge-intelligence', 'cloud-infrastructure', 'resources',
       'solutions', 'smart-homes', 'commercial-spaces', 'industrial-facilities',
-      'smart-cities', 'hospitality', 'public-infrastructure', 'contact'
+      'smart-cities', 'hospitality', 'public-infrastructure', 'contact',
+      'terms', 'privacy', 'legal'
     ];
 
     if (hash === 'company' || hash === 'about') {
       switchView('view-company');
+    } else if (hash === 'legal') {
+      switchView('view-terms');
     } else if (validViews.includes(hash)) {
       switchView(`view-${hash}`);
     } else {
