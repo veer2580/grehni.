@@ -12,4 +12,4 @@ not_found_handling = "single-page-application"
 [vars]
 ENVIRONMENT = "production"
 SITE_NAME = "GREHNI"
-SITE_URL = "https://grehni.com"
+SITE_URL = "https://grehni.antellay.in"

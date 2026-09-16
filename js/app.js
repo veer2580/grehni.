@@ -202,7 +202,7 @@ def handle_environmental_shift(event):
     nodejs: `import { GrehniClient } from '@grehni/core';
 
 const client = new GrehniClient({
-  endpoint: 'https://api.grehni.com/v2',
+  endpoint: 'https://api.grehni.antellay.in/v2',
   apiKey: process.env.GREHNI_API_KEY
 });
 
@@ -213,7 +213,7 @@ client.zones.subscribe('campus-mumbai-hq', (telemetry) => {
 });`,
 
     rest: `POST /api/v2/zones/hq-boardroom/dispense HTTP/1.1
-Host: api.grehni.com
+Host: api.grehni.antellay.in
 Authorization: Bearer gr_live_9f8a2bc41
 Content-Type: application/json
 
