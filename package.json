@@ -4,6 +4,8 @@
   "description": "GREHNI — AI Operating System for Smart Spaces",
   "private": true,
   "scripts": {
+    "dev": "npx serve -l 3000 .",
+    "start": "npx serve -l 3000 .",
     "build": "echo 'Static assets ready.'",
     "deploy": "npx vercel --prod",
     "deploy:vercel": "npx vercel --prod",
